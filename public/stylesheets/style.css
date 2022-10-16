@@ -1,0 +1,20 @@
+.link-btn {
+  background-color: lightgray;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-weight: 600;
+}
+
+.container :hover {
+  color: white;
+}
+
+.container :focus {
+  color: white;
+}
+
+.btnpages {
+  display: grid;
+  grid-template-columns: minmax(800px, 1fr) 1fr 1fr 1fr;
+}

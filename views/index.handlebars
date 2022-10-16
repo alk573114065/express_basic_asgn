@@ -1,0 +1,17 @@
+
+
+<!-- navigation -->
+<nav class="navbar">
+  <div class="container">
+    <div class="btnpages">
+      {{#each btnpages}}
+      <a href="/{{this.router}}">
+        <button class="link-btn">{{this.button}}</button>
+      </a>
+      {{/each}}
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <h3 class="fw-bold mt-5">{{text.title}}</h3>
+</div>
